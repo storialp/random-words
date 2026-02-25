@@ -1,0 +1,32 @@
+{
+  "name": "random-words-cli",
+  "version": "1.0.0",
+  "description": "Generate random words from English dictionary",
+  "main": "dist/index.js",
+  "bin": {
+    "random-words": "dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "random",
+    "words",
+    "cli",
+    "generator"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "an-array-of-english-words": "^2.0.0"
+  }
+}
