@@ -9,13 +9,13 @@ This tool uses cryptographically secure random numbers (`crypto.randomInt`) to p
 You can run it directly using `npx`, or any of the laternatives such as `bunx`:
 
 ```bash
-npx random-words-cli
+npx random-words-local
 ```
 
 Or install it globally:
 
 ```bash
-npm install -g random-words-cli
+npm install -g random-words-local
 ```
 
 ## Usage
