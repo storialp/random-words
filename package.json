@@ -1,10 +1,10 @@
 {
   "name": "random-words-local",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate random words from English dictionary",
   "repository": {
     "type": "git",
-    "url": "https://github.com/storialp/random-words-local.git"
+    "url": "https://github.com/storialp/random-words.git"
   },
   "main": "dist/index.js",
   "bin": {
