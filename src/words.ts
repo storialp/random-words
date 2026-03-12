@@ -1,6 +1,8 @@
 import { randomInt } from 'node:crypto';
-// @ts-ignore - The package doesn't have types but we know it's an array of strings
-import words from 'an-array-of-english-words';
+import { createRequire } from 'node:module';
+
+const require = createRequire(import.meta.url);
+const words = require('an-array-of-english-words') as string[];
 
 /**
  * Returns a list of random words.

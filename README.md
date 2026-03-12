@@ -28,10 +28,17 @@ Or install globally for convenient CLI access:
 npm install -g random-words-local
 ```
 
+This package now exposes both `random-words-local` and `random-words` as CLI commands, so either of these will work after install:
+
+```bash
+random-words-local
+random-words
+```
+
 ## Usage
 
 ```bash
-random-words [options]
+random-words-local [options]
 ```
 
 ### Options

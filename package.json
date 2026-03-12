@@ -4,14 +4,15 @@
   "description": "Generate secure, memorable random word passphrases from a 275,000+ word English dictionary. Perfect for creating strong passwords, passphrases, mnemonic phrases, and diceware-style wordlists. CLI tool with cryptographically secure random generation.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/storialp/random-words.git"
+    "url": "git+https://github.com/storialp/random-words.git"
   },
   "main": "dist/index.js",
   "files": [
     "dist"
   ],
   "bin": {
-    "random-words": "dist/index.js"
+    "random-words": "dist/index.js",
+    "random-words-local": "dist/index.js"
   },
   "type": "module",
   "scripts": {
