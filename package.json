@@ -1,7 +1,7 @@
 {
   "name": "random-words-local",
-  "version": "1.0.4",
-  "description": "Generate random words from English dictionary",
+  "version": "1.0.5",
+  "description": "Generate secure, memorable random word passphrases from a 275,000+ word English dictionary. Perfect for creating strong passwords, passphrases, mnemonic phrases, and diceware-style wordlists. CLI tool with cryptographically secure random generation.",
   "repository": {
     "type": "git",
     "url": "https://github.com/storialp/random-words.git"
@@ -27,12 +27,22 @@
     "generator",
     "passphrase",
     "password",
+    "passphrase-generator",
+    "password-generator",
     "random-string",
     "mnemonic",
     "entropy",
     "xkcd",
+    "xkcd-password",
     "wordlist",
-    "diceware"
+    "diceware",
+    "secure-password",
+    "memorable-password",
+    "strong-password",
+    "random-password-generator",
+    "passphrase-generator-cli",
+    "crypto",
+    "cryptographically-secure"
   ],
   "author": "",
   "license": "MIT",
