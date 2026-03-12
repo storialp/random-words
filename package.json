@@ -1,6 +1,6 @@
 {
   "name": "random-words-local",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Generate secure, memorable random word passphrases from a 275,000+ word English dictionary. Perfect for creating strong passwords, passphrases, mnemonic phrases, and diceware-style wordlists. CLI tool with cryptographically secure random generation.",
   "repository": {
     "type": "git",
